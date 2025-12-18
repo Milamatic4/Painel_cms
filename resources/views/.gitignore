@@ -1,0 +1,12 @@
+/node_modules
+/vendor
+/.env
+/.env.*
+/storage/*.key
+/storage/framework
+/storage/logs
+/public/storage
+.phpunit.result.cache
+*.zip
+PAINEL-INSTALAÇAO/
+.DS_Store
