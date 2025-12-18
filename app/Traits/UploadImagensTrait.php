@@ -15,7 +15,7 @@ trait UploadImagensTrait
             $imagem = $request->file($nomeDoCampo);
 
             $ext = $imagem->getClientOriginalExtension();
-            $nomeArquivo = 'media_' . uniqid() . '-Central-TT-' . date('d-m-Y') . '.' . $ext;
+            $nomeArquivo = 'media_' . uniqid() . '-Central' . date('d-m-Y') . '.' . $ext;
 
             // Salva em storage/app/public/pasta
             $path = $imagem->storeAs($pasta, $nomeArquivo, 'public');
@@ -38,7 +38,7 @@ trait UploadImagensTrait
             $imagem = $request->file($nomeDoCampo);
 
             $ext = $imagem->getClientOriginalExtension();
-            $nomeArquivo = 'media_' . uniqid() . '-Central-TT-' . date('d-m-Y') . '.' . $ext;
+            $nomeArquivo = 'media_' . uniqid() . '-Central' . date('d-m-Y') . '.' . $ext;
 
             $path = $imagem->storeAs($pasta, $nomeArquivo, 'public');
 
@@ -56,7 +56,7 @@ trait UploadImagensTrait
             foreach ($request->file($nomeDoCampo) as $imagem) {
 
                 $ext = $imagem->getClientOriginalExtension();
-                $nomeArquivo = 'media_' . uniqid() . '-Central-TT-' . date('d-m-Y') . '.' . $ext;
+                $nomeArquivo = 'media_' . uniqid() . '-Central' . date('d-m-Y') . '.' . $ext;
 
                 $path = $imagem->storeAs($pasta, $nomeArquivo, 'public');
 

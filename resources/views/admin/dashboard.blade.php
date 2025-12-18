@@ -75,10 +75,10 @@
             <div class="col-lg-12 col-md-12 col-12 col-sm-12">
               <div class="card">
                 <div class="card-header">
-                  <h4>Estatísticas Painel Central TT</h4>
+                  <h4>Estatísticas Painel_CMS</h4>
                 </div>
                 <div class="card-body">
-                  <canvas id="centralTTChart" height="182"></canvas>
+                  <canvas id="Chart" height="182"></canvas>
                 </div>
               </div>
             </div>
@@ -92,13 +92,13 @@
   
 
         <script>
-        var ctx = document.getElementById("centralTTChart").getContext('2d');
+        var ctx = document.getElementById("Chart").getContext('2d');
         var myChart = new Chart(ctx, {
           type: 'bar',
           data: {
             labels: ["Notícias", "Paginas", "Videos", "Serviços"],
             datasets: [{
-              label: 'Statísticas Central TT',
+              label: 'Statísticas Painel_CMS',
               data: [{{$totalPosts}}, {{$totalPaginas}}, {{$totalVideos}}, {{$totalServicos}}],
               borderWidth: 2,
               backgroundColor: '#6777ef',

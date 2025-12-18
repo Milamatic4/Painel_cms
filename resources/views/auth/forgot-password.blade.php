@@ -114,7 +114,7 @@
 
             <div class="login-brand">
               <img src="{{ asset('backend/assets/img/logo.png') }}" 
-                   alt="Central TT - EAD"
+                   alt="Painel_CMS - EAD"
                    style="width: 90%; height:auto; border:none;">
             </div>
 
@@ -160,13 +160,13 @@
             </div>
             <div class="mt-5 text-muted text-center">
                 Criado por 
-                <a href="https://horbitahub.com" style="color: #00c853 !important; font-weight: bold !important;">
-                Horbita
+                <a href="" style="color: #00c853 !important; font-weight: bold !important;">
+                Camila Morais
                 </a>
             </div>
 
             <div class="simple-footer">
-              Todos os direitos reservados &copy; {{ date('Y') }} Horbita
+              Todos os direitos reservados &copy; {{ date('Y') }} Camila Morais
             </div>
 
           </div>

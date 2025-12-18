@@ -155,7 +155,7 @@
                             <div class="is-online"></div>
                         </div>
                         <div class="dropdown-item-desc">
-                            <b>Maykon</b>
+                            <b>Camila</b>
                             <p>Fala dev!</p>
                             <div class="time">07 Setembro 2025</div>
                         </div>

@@ -42,7 +42,7 @@
         color: var(--branco) !important;
     }
 
-    /* Marca (CENTRAL TT) */
+    /* Marca (Painel_CMS) */
     .sidebar-brand a {
         color: var(--branco) !important;
         font-weight: 900;
@@ -53,7 +53,7 @@
 <div class="main-sidebar sidebar-style-2">
     <aside id="sidebar-wrapper">
         <div class="sidebar-brand">
-            <a href="admin.dashboard">CENTRAL TT</a>
+            <a href="admin.dashboard">Painel_CMS</a>
         </div>
         <div class="sidebar-brand sidebar-brand-sm">
             <a href="admin.dashboard">CTT</a>

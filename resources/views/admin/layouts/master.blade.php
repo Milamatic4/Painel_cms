@@ -77,7 +77,7 @@
       <footer class="main-footer">
         <div class="footer-left">
           Todos os Direitos Reservados &copy; {{ date('Y') }}
-         <div class="bullet"></div> Desenvolvido por <a href="/">HORBITA</a> Versão 1.0
+         <div class="bullet"></div> Desenvolvido por <a href="/">Camila Morais</a> Versão 1.0
         </div>
         <div class="footer-right">
 
